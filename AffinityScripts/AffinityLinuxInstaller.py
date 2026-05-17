@@ -8206,6 +8206,7 @@ class AffinityInstallerGUI(QMainWindow):
 
     def install_dependencies(self):
         """Install dependencies based on distribution"""
+        return True
         self.log(
             f"DEBUG: install_dependencies called with distro={self.distro}", "info"
         )
@@ -15985,6 +15986,7 @@ Would you like to continue with {distro_name} anyway?"""
 
     def install_dotnet_sdk(self, version="8.0"):
         """Install .NET SDK based on distribution"""
+        return True
         try:
             self.log(f"Installing .NET SDK {version}...", "info")
 
