@@ -33,7 +33,7 @@ AffinityOnLinux provides an easy way to install and run Affinity Photo, Designer
 **Want full features and latest updates?** Use the Python GUI Installer:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ryzendew/AffinityOnLinux/refs/heads/main/AffinityScripts/AffinityLinuxInstaller.py | python3
+curl -sSL https://raw.githubusercontent.com/Virgile-fr/AffinityOnLinux/refs/heads/main/AffinityScripts/AffinityLinuxInstaller.py | python3
 ```
 
 <details>
